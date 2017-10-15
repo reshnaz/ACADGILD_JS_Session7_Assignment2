@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="/home/reshma/Documents/AcadGild/Web_Fundamentals/Session-7_09Oct2017/Assignment-2/script.js"></script>
+	<title>S-7 Assignment-2</title>
+</head>
+
+<body>
+	<!-- Displaying helpful notes -->
+
+	<!-- Using bootstrap -->
+	<div class="container-fluid col-sm-3 col-md-3">
+		<h2>Sample User Form</h2>
+		<br>
+		<form role="form">
+			<!-- This element displays help text -->
+			<div class="form-group">
+				<span id="helpBlock" class="help-block"></span>
+			</div>
+			<!-- This element takes user name -->
+			<div class="form-group">
+				<label for="name" class="control-label">Name:</label>
+				<input type="text" class="form-control input-sm input-md" id="Name" name="Name" onclick="helptext(this.id)">
+			</div>
+			<!-- This element takes user age -->
+			<div class="form-group">
+				<label for="age" class="control-label">Age:</label>
+				<input type="text" class="form-control input-sm input-md" id="Age" name="Age" onclick="helptext(this.id)">
+			</div>
+			<!-- This element takes user city -->
+			<div class="form-group">
+				<label for="city" class="control-label">City:</label>
+				<input type="text" class="form-control input-sm input-md" id="City" name="City" onclick="helptext(this.id)">
+			</div>
+		</form>
+	</div>
+
+</body>
+</html>
